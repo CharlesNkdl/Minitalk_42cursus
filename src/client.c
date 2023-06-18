@@ -12,7 +12,7 @@ void	sending(int pid, char c)
 		else
 			kill(pid,SIGUSR2);
 		c = c >> 1;
-		usleep(200);
+		usleep(500);
 		//bit++;
 	}
 }
